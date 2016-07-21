@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74B1C67C1D3F49F700722C5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C67B1D3F49F700722C5B /* main.m */; };
+		74B1C67F1D3F49F700722C5B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C67E1D3F49F700722C5B /* AppDelegate.m */; };
+		74B1C6821D3F49F700722C5B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C6811D3F49F700722C5B /* ViewController.m */; };
+		74B1C6851D3F49F700722C5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B1C6831D3F49F700722C5B /* Main.storyboard */; };
+		74B1C6871D3F49F700722C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74B1C6861D3F49F700722C5B /* Assets.xcassets */; };
+		74B1C68A1D3F49F700722C5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74B1C6881D3F49F700722C5B /* LaunchScreen.storyboard */; };
+		74B1C6951D3F49F700722C5B /* CarouselAdvertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C6941D3F49F700722C5B /* CarouselAdvertTests.m */; };
+		74B1C6A01D3F49F700722C5B /* CarouselAdvertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C69F1D3F49F700722C5B /* CarouselAdvertUITests.m */; };
+		74B1C6B01D3F4CB000722C5B /* CarouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C6AF1D3F4CB000722C5B /* CarouseView.m */; };
+		74B1C6B31D3F4F0800722C5B /* CarouseImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C6B21D3F4F0800722C5B /* CarouseImageView.m */; };
+		74B1C6B61D405EC800722C5B /* AdvertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B1C6B51D405EC800722C5B /* AdvertController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74B1C6911D3F49F700722C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B1C66F1D3F49F700722C5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B1C6761D3F49F700722C5B;
+			remoteInfo = CarouselAdvert;
+		};
+		74B1C69C1D3F49F700722C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74B1C66F1D3F49F700722C5B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74B1C6761D3F49F700722C5B;
+			remoteInfo = CarouselAdvert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74B1C6771D3F49F700722C5B /* CarouselAdvert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselAdvert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B1C67B1D3F49F700722C5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74B1C67D1D3F49F700722C5B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74B1C67E1D3F49F700722C5B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74B1C6801D3F49F700722C5B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74B1C6811D3F49F700722C5B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74B1C6841D3F49F700722C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74B1C6861D3F49F700722C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74B1C6891D3F49F700722C5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74B1C68B1D3F49F700722C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B1C6901D3F49F700722C5B /* CarouselAdvertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselAdvertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B1C6941D3F49F700722C5B /* CarouselAdvertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselAdvertTests.m; sourceTree = "<group>"; };
+		74B1C6961D3F49F700722C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B1C69B1D3F49F700722C5B /* CarouselAdvertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarouselAdvertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74B1C69F1D3F49F700722C5B /* CarouselAdvertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarouselAdvertUITests.m; sourceTree = "<group>"; };
+		74B1C6A11D3F49F700722C5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74B1C6AE1D3F4CB000722C5B /* CarouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouseView.h; sourceTree = "<group>"; };
+		74B1C6AF1D3F4CB000722C5B /* CarouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouseView.m; sourceTree = "<group>"; };
+		74B1C6B11D3F4F0800722C5B /* CarouseImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarouseImageView.h; sourceTree = "<group>"; };
+		74B1C6B21D3F4F0800722C5B /* CarouseImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouseImageView.m; sourceTree = "<group>"; };
+		74B1C6B41D405EC800722C5B /* AdvertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvertController.h; sourceTree = "<group>"; };
+		74B1C6B51D405EC800722C5B /* AdvertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvertController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74B1C6741D3F49F700722C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1C68D1D3F49F700722C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1C6981D3F49F700722C5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74B1C66E1D3F49F700722C5B = {
+			isa = PBXGroup;
+			children = (
+				74B1C6791D3F49F700722C5B /* CarouselAdvert */,
+				74B1C6931D3F49F700722C5B /* CarouselAdvertTests */,
+				74B1C69E1D3F49F700722C5B /* CarouselAdvertUITests */,
+				74B1C6781D3F49F700722C5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74B1C6781D3F49F700722C5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74B1C6771D3F49F700722C5B /* CarouselAdvert.app */,
+				74B1C6901D3F49F700722C5B /* CarouselAdvertTests.xctest */,
+				74B1C69B1D3F49F700722C5B /* CarouselAdvertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B1C6791D3F49F700722C5B /* CarouselAdvert */ = {
+			isa = PBXGroup;
+			children = (
+				74B1C67D1D3F49F700722C5B /* AppDelegate.h */,
+				74B1C67E1D3F49F700722C5B /* AppDelegate.m */,
+				74B1C6801D3F49F700722C5B /* ViewController.h */,
+				74B1C6811D3F49F700722C5B /* ViewController.m */,
+				74B1C6B41D405EC800722C5B /* AdvertController.h */,
+				74B1C6B51D405EC800722C5B /* AdvertController.m */,
+				74B1C6AD1D3F4C9200722C5B /* CarouselView */,
+				74B1C6831D3F49F700722C5B /* Main.storyboard */,
+				74B1C6861D3F49F700722C5B /* Assets.xcassets */,
+				74B1C6881D3F49F700722C5B /* LaunchScreen.storyboard */,
+				74B1C68B1D3F49F700722C5B /* Info.plist */,
+				74B1C67A1D3F49F700722C5B /* Supporting Files */,
+			);
+			path = CarouselAdvert;
+			sourceTree = "<group>";
+		};
+		74B1C67A1D3F49F700722C5B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				74B1C67B1D3F49F700722C5B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74B1C6931D3F49F700722C5B /* CarouselAdvertTests */ = {
+			isa = PBXGroup;
+			children = (
+				74B1C6941D3F49F700722C5B /* CarouselAdvertTests.m */,
+				74B1C6961D3F49F700722C5B /* Info.plist */,
+			);
+			path = CarouselAdvertTests;
+			sourceTree = "<group>";
+		};
+		74B1C69E1D3F49F700722C5B /* CarouselAdvertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74B1C69F1D3F49F700722C5B /* CarouselAdvertUITests.m */,
+				74B1C6A11D3F49F700722C5B /* Info.plist */,
+			);
+			path = CarouselAdvertUITests;
+			sourceTree = "<group>";
+		};
+		74B1C6AD1D3F4C9200722C5B /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				74B1C6AE1D3F4CB000722C5B /* CarouseView.h */,
+				74B1C6AF1D3F4CB000722C5B /* CarouseView.m */,
+				74B1C6B11D3F4F0800722C5B /* CarouseImageView.h */,
+				74B1C6B21D3F4F0800722C5B /* CarouseImageView.m */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74B1C6761D3F49F700722C5B /* CarouselAdvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B1C6A41D3F49F700722C5B /* Build configuration list for PBXNativeTarget "CarouselAdvert" */;
+			buildPhases = (
+				74B1C6731D3F49F700722C5B /* Sources */,
+				74B1C6741D3F49F700722C5B /* Frameworks */,
+				74B1C6751D3F49F700722C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarouselAdvert;
+			productName = CarouselAdvert;
+			productReference = 74B1C6771D3F49F700722C5B /* CarouselAdvert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74B1C68F1D3F49F700722C5B /* CarouselAdvertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B1C6A71D3F49F700722C5B /* Build configuration list for PBXNativeTarget "CarouselAdvertTests" */;
+			buildPhases = (
+				74B1C68C1D3F49F700722C5B /* Sources */,
+				74B1C68D1D3F49F700722C5B /* Frameworks */,
+				74B1C68E1D3F49F700722C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B1C6921D3F49F700722C5B /* PBXTargetDependency */,
+			);
+			name = CarouselAdvertTests;
+			productName = CarouselAdvertTests;
+			productReference = 74B1C6901D3F49F700722C5B /* CarouselAdvertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74B1C69A1D3F49F700722C5B /* CarouselAdvertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74B1C6AA1D3F49F700722C5B /* Build configuration list for PBXNativeTarget "CarouselAdvertUITests" */;
+			buildPhases = (
+				74B1C6971D3F49F700722C5B /* Sources */,
+				74B1C6981D3F49F700722C5B /* Frameworks */,
+				74B1C6991D3F49F700722C5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74B1C69D1D3F49F700722C5B /* PBXTargetDependency */,
+			);
+			name = CarouselAdvertUITests;
+			productName = CarouselAdvertUITests;
+			productReference = 74B1C69B1D3F49F700722C5B /* CarouselAdvertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74B1C66F1D3F49F700722C5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = yourangroup;
+				TargetAttributes = {
+					74B1C6761D3F49F700722C5B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M5JU2R9TYN;
+					};
+					74B1C68F1D3F49F700722C5B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M5JU2R9TYN;
+						TestTargetID = 74B1C6761D3F49F700722C5B;
+					};
+					74B1C69A1D3F49F700722C5B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M5JU2R9TYN;
+						TestTargetID = 74B1C6761D3F49F700722C5B;
+					};
+				};
+			};
+			buildConfigurationList = 74B1C6721D3F49F700722C5B /* Build configuration list for PBXProject "CarouselAdvert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74B1C66E1D3F49F700722C5B;
+			productRefGroup = 74B1C6781D3F49F700722C5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74B1C6761D3F49F700722C5B /* CarouselAdvert */,
+				74B1C68F1D3F49F700722C5B /* CarouselAdvertTests */,
+				74B1C69A1D3F49F700722C5B /* CarouselAdvertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74B1C6751D3F49F700722C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1C68A1D3F49F700722C5B /* LaunchScreen.storyboard in Resources */,
+				74B1C6871D3F49F700722C5B /* Assets.xcassets in Resources */,
+				74B1C6851D3F49F700722C5B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1C68E1D3F49F700722C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1C6991D3F49F700722C5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74B1C6731D3F49F700722C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1C6821D3F49F700722C5B /* ViewController.m in Sources */,
+				74B1C6B61D405EC800722C5B /* AdvertController.m in Sources */,
+				74B1C6B01D3F4CB000722C5B /* CarouseView.m in Sources */,
+				74B1C67F1D3F49F700722C5B /* AppDelegate.m in Sources */,
+				74B1C6B31D3F4F0800722C5B /* CarouseImageView.m in Sources */,
+				74B1C67C1D3F49F700722C5B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1C68C1D3F49F700722C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1C6951D3F49F700722C5B /* CarouselAdvertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74B1C6971D3F49F700722C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74B1C6A01D3F49F700722C5B /* CarouselAdvertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74B1C6921D3F49F700722C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B1C6761D3F49F700722C5B /* CarouselAdvert */;
+			targetProxy = 74B1C6911D3F49F700722C5B /* PBXContainerItemProxy */;
+		};
+		74B1C69D1D3F49F700722C5B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74B1C6761D3F49F700722C5B /* CarouselAdvert */;
+			targetProxy = 74B1C69C1D3F49F700722C5B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74B1C6831D3F49F700722C5B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B1C6841D3F49F700722C5B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74B1C6881D3F49F700722C5B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74B1C6891D3F49F700722C5B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74B1C6A21D3F49F700722C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74B1C6A31D3F49F700722C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B1C6A51D3F49F700722C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarouselAdvert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourangroup.CarouselAdvert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74B1C6A61D3F49F700722C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CarouselAdvert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourangroup.CarouselAdvert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74B1C6A81D3F49F700722C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarouselAdvertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourangroup.CarouselAdvertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselAdvert.app/CarouselAdvert";
+			};
+			name = Debug;
+		};
+		74B1C6A91D3F49F700722C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarouselAdvertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourangroup.CarouselAdvertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarouselAdvert.app/CarouselAdvert";
+			};
+			name = Release;
+		};
+		74B1C6AB1D3F49F700722C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarouselAdvertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourangroup.CarouselAdvertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarouselAdvert;
+			};
+			name = Debug;
+		};
+		74B1C6AC1D3F49F700722C5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarouselAdvertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourangroup.CarouselAdvertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CarouselAdvert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74B1C6721D3F49F700722C5B /* Build configuration list for PBXProject "CarouselAdvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1C6A21D3F49F700722C5B /* Debug */,
+				74B1C6A31D3F49F700722C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B1C6A41D3F49F700722C5B /* Build configuration list for PBXNativeTarget "CarouselAdvert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1C6A51D3F49F700722C5B /* Debug */,
+				74B1C6A61D3F49F700722C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B1C6A71D3F49F700722C5B /* Build configuration list for PBXNativeTarget "CarouselAdvertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1C6A81D3F49F700722C5B /* Debug */,
+				74B1C6A91D3F49F700722C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74B1C6AA1D3F49F700722C5B /* Build configuration list for PBXNativeTarget "CarouselAdvertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B1C6AB1D3F49F700722C5B /* Debug */,
+				74B1C6AC1D3F49F700722C5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74B1C66F1D3F49F700722C5B /* Project object */;
+}
